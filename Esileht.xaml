@@ -9,17 +9,34 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <StackPanel>
+        <StackPanel HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
             <StackPanel>
                 <GridView>
-                    <GridViewItem>Tunniplaan</GridViewItem>
-                    <GridViewItem>Söökla</GridViewItem>
-                    <GridViewItem>Bussi ajad</GridViewItem>
-                </GridView>
-            </StackPanel>
-            <StackPanel>
-                <GridView>
-                    <GridViewItem>Kontakt</GridViewItem>
+                    <GridViewItem Padding="50"
+                                  FontSize="30"
+                                  Margin="10"
+                                  Tag="Item1">Tunniplaan</GridViewItem>
+                    
+                    <GridViewItem Padding="50"
+                                  FontSize="30"
+                                  Margin="10"
+                                  Tag="Item2">Söökla</GridViewItem>
+                    
+                    <GridViewItem Padding="50"
+                                  FontSize="30"
+                                  Margin="10"
+                                  Tag="Item3">Bussi ajad</GridViewItem>
+                    
+                    <GridViewItem Padding="50"
+                                  FontSize="30"
+                                  Margin="10"
+                                  Tag="Item4">Kontaktid</GridViewItem>
+                    
+                    <GridViewItem Padding="50"
+                                  FontSize="30"
+                                  Margin="10"
+                                  Tag="Item5">Ruumid</GridViewItem>
                 </GridView>
             </StackPanel>
         </StackPanel>
