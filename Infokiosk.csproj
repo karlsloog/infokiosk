@@ -126,9 +126,12 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="sookla.xaml.cs">
       <DependentUpon>sookla.xaml</DependentUpon>
     </Compile>
+=======
+>>>>>>> 1a6f19ed46034a259e5357f03f08644740d000a2
     <Compile Include="Tunniplaan.xaml.cs">
       <DependentUpon>Tunniplaan.xaml</DependentUpon>
     </Compile>
@@ -163,10 +166,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+<<<<<<< HEAD
     <Page Include="sookla.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+=======
+>>>>>>> 1a6f19ed46034a259e5357f03f08644740d000a2
     <Page Include="Tunniplaan.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

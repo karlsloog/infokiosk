@@ -9,6 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+<<<<<<< HEAD
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"></RowDefinition>
@@ -16,6 +17,23 @@
                 <RowDefinition Height="Auto"></RowDefinition>
             </Grid.RowDefinitions>
 
+=======
+<<<<<<< HEAD
+
+        
+        
+        
+
+=======
+>>>>>>> daabca13067a4e409a28cada52984c06fab5353b
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+
+>>>>>>> 1a6f19ed46034a259e5357f03f08644740d000a2
             <StackPanel Grid.Row="0">
                 <Image Source="/Assets/vikkmaja.jpg"></Image>
             </StackPanel>
@@ -37,6 +55,14 @@
                     </Button.Background>
                 </Button>
             </StackPanel>
+<<<<<<< HEAD
         </Grid>
+=======
+<<<<<<< HEAD
+    </Grid>
+=======
+        </Grid>
+>>>>>>> daabca13067a4e409a28cada52984c06fab5353b
+>>>>>>> 1a6f19ed46034a259e5357f03f08644740d000a2
     </Grid>
 </Page>

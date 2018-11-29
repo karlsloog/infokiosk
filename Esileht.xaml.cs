@@ -26,10 +26,13 @@ namespace Infokiosk
         {
             this.InitializeComponent();
         }
+<<<<<<< HEAD
 
         private void GridViewItem_Tapped(object sender, TappedRoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(sookla));
         }
+=======
+>>>>>>> 1a6f19ed46034a259e5357f03f08644740d000a2
     }
 }
