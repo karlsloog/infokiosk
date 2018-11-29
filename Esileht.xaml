@@ -1,0 +1,46 @@
+﻿<Page
+    x:Class="Infokiosk.Esileht"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Infokiosk"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+            <StackPanel>
+                <GridView>
+                    <GridViewItem Padding="50"
+                                  FontSize="30"
+                                  Margin="10"
+                                  Tag="Item1">Tunniplaan</GridViewItem>
+                    
+                    <GridViewItem Padding="50"
+                                  FontSize="30"
+                                  Margin="10"
+                                  Tag="item2" Tapped="GridViewItem_Tapped">Söökla
+                    </GridViewItem>
+
+                    
+                    <GridViewItem Padding="50"
+                                  FontSize="30"
+                                  Margin="10"
+                                  Tag="Item3">Bussi ajad</GridViewItem>
+                    
+                    <GridViewItem Padding="50"
+                                  FontSize="30"
+                                  Margin="10"
+                                  Tag="Item4">Kontaktid</GridViewItem>
+                    
+                    <GridViewItem Padding="50"
+                                  FontSize="30"
+                                  Margin="10"
+                                  Tag="Item5">Ruumid</GridViewItem>
+                </GridView>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
