@@ -132,6 +132,9 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ruumid.xaml.cs">
+      <DependentUpon>Ruumid.xaml</DependentUpon>
+    </Compile>
     <Compile Include="sookla.xaml.cs">
       <DependentUpon>sookla.xaml</DependentUpon>
     </Compile>
@@ -176,6 +179,10 @@
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Ruumid.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="sookla.xaml">
       <SubType>Designer</SubType>
