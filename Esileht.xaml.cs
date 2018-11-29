@@ -17,9 +17,7 @@ using Windows.UI.Xaml.Navigation;
 
 namespace Infokiosk
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
+
     public sealed partial class Esileht : Page
     {
         public Esileht()
@@ -34,7 +32,16 @@ namespace Infokiosk
 
         private void GridViewItem_Tapped_1(object sender, TappedRoutedEventArgs e)
         {
+
+
+
             this.Frame.Navigate(typeof(Bussiajad));
+
+        }
+
+        private void GridViewItem_Tapped_2(object sender, TappedRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Tunniplaan));
         }
 
         private void GridViewItem_Tapped_2(object sender, TappedRoutedEventArgs e)
