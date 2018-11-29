@@ -32,5 +32,9 @@ namespace Infokiosk
             this.Frame.Navigate(typeof(sookla));
         }
 
+        private void GridViewItem_Tapped_1(object sender, TappedRoutedEventArgs e)
+        {
+
+        }
     }
 }
