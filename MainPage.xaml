@@ -9,11 +9,11 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-<<<<<<< HEAD
+
         
         
         
-=======
+
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"></RowDefinition>
@@ -42,7 +42,6 @@
                     </Button.Background>
                 </Button>
             </StackPanel>
-        </Grid>
->>>>>>> eb13501cffa6b5fa774dc21ffedbbde8e306f2c5
+    </Grid>
     </Grid>
 </Page>
