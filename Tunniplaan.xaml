@@ -1,0 +1,60 @@
+﻿<Page
+    x:Class="Infokiosk.Tunniplaan"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Infokiosk"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Pivot Title="Menüü">
+            <PivotItem Header="Õpilased" Height="Auto">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <ScrollViewer Grid.Column="0">
+                        <ListView>
+                            <ListViewItem Background="#FF959292">IS16</ListViewItem>
+                            <ListViewItem Background="#FF959292">IS17</ListViewItem>
+                            <ListViewItem Background="#FF959292">IS18</ListViewItem>
+                            <ListViewItem Background="#FF959292">Ta16</ListViewItem>
+                            <ListViewItem Background="#FF959292">Ta17</ListViewItem>
+                            <ListViewItem Background="#FF959292">Ta18</ListViewItem>
+                            <ListViewItem Background="#FF959292">AM16</ListViewItem>
+
+                        </ListView>
+                    </ScrollViewer>
+                </Grid>
+            </PivotItem>
+            <PivotItem Header="Õpetajad">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="143*"></ColumnDefinition>
+                        <ColumnDefinition Width="103*"/>
+                        <ColumnDefinition Width="492*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <ScrollViewer Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch">
+                        <ListView>
+                            <ListViewItem Background="#FFF5EBEB">Maire Tars</ListViewItem>
+                            <ListViewItem Background="#FFF5EBEB">Priit Paap</ListViewItem>
+                            <ListViewItem Background="#FFF5EBEB">Ott Kukk</ListViewItem>
+                            <ListViewItem Background="#FFF5EBEB">Ylvi Paas</ListViewItem>
+                            <ListViewItem Background="#FFF5EBEB">Tanel Peep</ListViewItem>
+                        </ListView>
+                    </ScrollViewer>
+
+                </Grid>
+            </PivotItem>
+
+            <PivotItem Header="Ruumid"></PivotItem>
+
+        </Pivot>
+
+    </Grid>
+</Page>
