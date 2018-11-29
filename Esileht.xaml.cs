@@ -32,6 +32,7 @@ namespace Infokiosk
 
         private void GridViewItem_Tapped_1(object sender, TappedRoutedEventArgs e)
         {
+<<<<<<< HEAD
             this.Frame.Navigate(typeof(Bussiajad));
         }
 
@@ -41,13 +42,29 @@ namespace Infokiosk
         }
 
         private void GridViewItem_Tapped_4(object sender, TappedRoutedEventArgs e)
+=======
+
+
+
+            this.Frame.Navigate(typeof(Bussiajad));
+
+        }
+
+        private void GridViewItem_Tapped_2(object sender, TappedRoutedEventArgs e)
+>>>>>>> c20d16dede797602bb3b92b901e6f05a5a39fa78
         {
             this.Frame.Navigate(typeof(Tunniplaan));
         }
 
+<<<<<<< HEAD
         private void GridViewItem_Tapped_5(object sender, TappedRoutedEventArgs e)
         {
 
+=======
+        private void GridViewItem_Tapped_2(object sender, TappedRoutedEventArgs e)
+        {
+           
+>>>>>>> c20d16dede797602bb3b92b901e6f05a5a39fa78
         }
     }
 }

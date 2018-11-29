@@ -27,9 +27,9 @@ namespace Infokiosk
             this.InitializeComponent();
         }
 
-        private void ListView_ItemClick(object sender, ItemClickEventArgs e)
+        private void backbutton_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(Esileht));
         }
     }
 }
