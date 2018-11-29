@@ -9,11 +9,6 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-<<<<<<< HEAD
-        
-        
-        
-=======
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"></RowDefinition>
@@ -33,7 +28,7 @@
                         >
                 <Button Content="Sisene"
                         HorizontalAlignment="Center"
-                        
+                        Click="Button_Click"
                         Padding="30,20,30,20"
                         FontSize="30"
                         Margin="0,200,0,0">
@@ -43,6 +38,5 @@
                 </Button>
             </StackPanel>
         </Grid>
->>>>>>> eb13501cffa6b5fa774dc21ffedbbde8e306f2c5
     </Grid>
 </Page>
