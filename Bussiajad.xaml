@@ -11,23 +11,74 @@
     <Grid>
         <StackPanel>
 
-            <Pivot>
-                <PivotItem>
+
+            <Pivot Title="">
+                <PivotItem Header="15A" Height="Auto">
                     <Grid>
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition></ColumnDefinition>
-                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition Width="1*"></ColumnDefinition>
+                            <ColumnDefinition Width="2*"></ColumnDefinition>
                         </Grid.ColumnDefinitions>
-                        <GridView>
-                            <GridViewItem FontSize="40">15A</GridViewItem>
-                            <GridViewItem FontSize="40">15</GridViewItem>
-                            <GridViewItem FontSize="40">23</GridViewItem>
-                            <GridViewItem FontSize="40">31</GridViewItem>
-                        </GridView>
+
+                        <ScrollViewer Grid.Column="0">
+                            <ListView>
+
+                            </ListView>
+                        </ScrollViewer>
                     </Grid>
-                    
                 </PivotItem>
+                <PivotItem Header="15" Height="Auto">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"></ColumnDefinition>
+                            <ColumnDefinition Width="2*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <ScrollViewer Grid.Column="0">
+                            <ListView>
+
+                            </ListView>
+                        </ScrollViewer>
+                    </Grid>
+                </PivotItem>
+                <PivotItem Header="23" Height="Auto">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"></ColumnDefinition>
+                            <ColumnDefinition Width="2*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <ScrollViewer Grid.Column="0">
+                            <ListView>
+
+                            </ListView>
+                        </ScrollViewer>
+                    </Grid>
+                </PivotItem>
+                <PivotItem Header="31" Height="Auto">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"></ColumnDefinition>
+                            <ColumnDefinition Width="2*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                       
+                        
+                    </Grid>
+                </PivotItem>
+
             </Pivot>
         </StackPanel>
+        <RelativePanel>
+            <StackPanel Name="headBlock" Orientation="Horizontal">
+                <Button Name="backbutton" Click="backbutton_Click">
+                    <SymbolIcon Symbol="back"></SymbolIcon>
+                </Button>
+                <TextBlock Name="titleblock"
+                       VerticalAlignment="Center" Margin="10,0,0,0"
+                       Text="Bussiajad">
+                </TextBlock>
+
+            </StackPanel>
+        </RelativePanel>
     </Grid>
 </Page>

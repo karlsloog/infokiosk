@@ -26,7 +26,7 @@
                     <GridViewItem Padding="50"
                                   FontSize="30"
                                   Margin="10"
-                                  Tag="Item3">Bussi ajad</GridViewItem>
+                                  Tag="Item3" Tapped="GridViewItem_Tapped_1">Bussiajad</GridViewItem>
                     
                     <GridViewItem Padding="50"
                                   FontSize="30"
