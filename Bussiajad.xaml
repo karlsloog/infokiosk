@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="Infokiosk.Bussiajad"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Infokiosk"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <StackPanel>
+
+            <Pivot>
+                <PivotItem>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <GridView>
+                            <GridViewItem FontSize="40">15A</GridViewItem>
+                            <GridViewItem FontSize="40">15</GridViewItem>
+                            <GridViewItem FontSize="40">23</GridViewItem>
+                            <GridViewItem FontSize="40">31</GridViewItem>
+                        </GridView>
+                    </Grid>
+                    
+                </PivotItem>
+            </Pivot>
+        </StackPanel>
+    </Grid>
+</Page>

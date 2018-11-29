@@ -119,6 +119,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Bussiajad.xaml.cs">
+      <DependentUpon>Bussiajad.xaml</DependentUpon>
+	</Compile>
     <Compile Include="Esileht.xaml.cs">
       <DependentUpon>Esileht.xaml</DependentUpon>
     </Compile>
@@ -155,6 +158,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Bussiajad.xaml">
+	<SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Esileht.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
