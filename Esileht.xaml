@@ -16,10 +16,27 @@
                     <GridViewItem Padding="50"
                                   FontSize="30"
                                   Margin="10"
+<<<<<<< HEAD
 
                                   Tag="Item1" Tapped="GridViewItem_Tapped_4">Tunniplaan</GridViewItem>
 
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+                                  Tag="Item1" Tapped="GridViewItem_Tapped_4">Tunniplaan</GridViewItem>
+=======
+<<<<<<< HEAD
+                                  Tag="Item1" Tapped="GridViewItem_Tapped_2">Tunniplaan</GridViewItem>
+                    
+=======
+                                  Tag="Item1">Tunniplaan</GridViewItem>
+>>>>>>> c20d16dede797602bb3b92b901e6f05a5a39fa78
+>>>>>>> d532a7a42fd65c06efe44e98f5178386fb58091c
+
+                                  Tag="Item1" Tapped="GridViewItem_Tapped_2">Tunniplaan</GridViewItem>
+>>>>>>> 52050f90d7abcdccbe5d00cf961b850767c4d9d7
                     <GridViewItem Padding="50"
                                   FontSize="30"
                                   Margin="10"

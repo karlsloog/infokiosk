@@ -10,11 +10,11 @@
 
     <Grid>
         <Pivot Title="">
-            <PivotItem Header="Õpilased" Height="Auto">
+            <PivotItem Header="Grupid" Height="Auto">
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="1*"></ColumnDefinition>
-                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                        <ColumnDefinition Width="5*"></ColumnDefinition>
                     </Grid.ColumnDefinitions>
 
                     <ScrollViewer Grid.Column="0">
@@ -28,6 +28,10 @@
                             <ListViewItem Background="LightGray">AM16</ListViewItem>
 
                         </ListView>
+                    </ScrollViewer>
+                    
+                    <ScrollViewer Grid.Column="1">
+                        <TextBlock Text="TEST"></TextBlock>
                     </ScrollViewer>
                 </Grid>
             </PivotItem>
@@ -76,11 +80,12 @@
                 <Button Name="backbutton" Click="backbutton_Click">
                     <SymbolIcon Symbol="back"></SymbolIcon>
                 </Button>
+                
                 <TextBlock Name="titleblock"
                        VerticalAlignment="Center" Margin="10,0,0,0"
                        Text="Tunniplaan">
                 </TextBlock>
-
+                
             </StackPanel>
         </RelativePanel>
     </Grid>
