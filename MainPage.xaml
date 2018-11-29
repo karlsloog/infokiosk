@@ -9,8 +9,40 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+<<<<<<< HEAD
         
         
         
+=======
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Row="0">
+                <Image Source="/Assets/vikkmaja.jpg"></Image>
+            </StackPanel>
+
+            <StackPanel Grid.Row="2">
+                <Image Source="/Assets/vikkmaja.jpg"></Image>
+            </StackPanel>
+
+            <StackPanel Grid.Row="1" Background="#FF0A4DFF"
+                        >
+                <Button Content="Sisene"
+                        HorizontalAlignment="Center"
+                        
+                        Padding="30,20,30,20"
+                        FontSize="30"
+                        Margin="0,200,0,0">
+                    <Button.Background>
+                        <AcrylicBrush TintColor="#CCFFFFFF"/>
+                    </Button.Background>
+                </Button>
+            </StackPanel>
+        </Grid>
+>>>>>>> eb13501cffa6b5fa774dc21ffedbbde8e306f2c5
     </Grid>
 </Page>
