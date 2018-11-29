@@ -36,5 +36,10 @@ namespace Infokiosk
         {
             this.Frame.Navigate(typeof(Bussiajad));
         }
+
+        private void GridViewItem_Tapped_2(object sender, TappedRoutedEventArgs e)
+        {
+           
+        }
     }
 }
