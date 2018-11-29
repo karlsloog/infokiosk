@@ -22,6 +22,7 @@
         </Grid.ColumnDefinitions>
         <StackPanel Grid.Row="1" Margin="0,0,0,10">
             <TextBlock Text="Esmaspäev" FontSize="50" HorizontalAlignment="Center"></TextBlock>
+            <TextBlock Text="26.11" FontSize="40" HorizontalAlignment="Center"></TextBlock>
         </StackPanel>
         <StackPanel Grid.Row="2">
             <TextBlock Text="Õpilastele" FontSize="25" HorizontalAlignment="Center"></TextBlock>
@@ -32,6 +33,7 @@
         </StackPanel>
         <StackPanel Grid.Row="1" Grid.Column="1">
             <TextBlock Text="Teisipäev" FontSize="50" HorizontalAlignment="Center"></TextBlock>
+            <TextBlock Text="27.11" FontSize="40" HorizontalAlignment="Center"></TextBlock>
         </StackPanel>
         <StackPanel Grid.Row="2" Grid.Column="1">
             <TextBlock Text="Õpilastele" FontSize="25" HorizontalAlignment="Center"></TextBlock>
@@ -42,6 +44,7 @@
         </StackPanel>
         <StackPanel Grid.Row="1" Grid.Column="2">
             <TextBlock Text="Kolmapäev" FontSize="50" HorizontalAlignment="Center"></TextBlock>
+            <TextBlock Text="28.11" FontSize="40" HorizontalAlignment="Center"></TextBlock>
         </StackPanel>
         <StackPanel Grid.Row="2" Grid.Column="2">
             <TextBlock Text="Õpilastele" FontSize="25" HorizontalAlignment="Center"></TextBlock>
@@ -52,6 +55,7 @@
         </StackPanel>
         <StackPanel Grid.Row="1" Grid.Column="3">
             <TextBlock Text="Neljapäev" FontSize="50" HorizontalAlignment="Center"></TextBlock>
+            <TextBlock Text="29.11" FontSize="40" HorizontalAlignment="Center"></TextBlock>
         </StackPanel>
         <StackPanel Grid.Row="2" Grid.Column="3">
             <TextBlock Text="Õpilastele" FontSize="25" HorizontalAlignment="Center"></TextBlock>
@@ -62,6 +66,7 @@
         </StackPanel>
         <StackPanel Grid.Row="1" Grid.Column="4">
             <TextBlock Text="Reede" FontSize="50" HorizontalAlignment="Center"></TextBlock>
+            <TextBlock Text="30.11" FontSize="40" HorizontalAlignment="Center"></TextBlock>
         </StackPanel>
         <StackPanel Grid.Row="2" Grid.Column="4">
             <TextBlock Text="Õpilastele" FontSize="25" HorizontalAlignment="Center"></TextBlock>
@@ -70,7 +75,6 @@
             <TextBlock Text="Tänased Pakkumised" FontSize="25" HorizontalAlignment="Center" Margin="0,100,0,10"></TextBlock>
             <TextBlock Text="Hakkrull peekoniga 2,50€" FontSize="20" HorizontalAlignment="Center"></TextBlock>
         </StackPanel>
-
         <RelativePanel>
             <StackPanel Name="headBlock" Orientation="Horizontal">
                 <Button Name="backbutton" Click="Backbutton_Click">

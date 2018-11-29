@@ -9,11 +9,14 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+<<<<<<< HEAD
 
 
 
 
 
+=======
+>>>>>>> d532a7a42fd65c06efe44e98f5178386fb58091c
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"></RowDefinition>
@@ -27,9 +30,12 @@
             <StackPanel Grid.Row="2">
                 <Image Source="/Assets/vikkmaja.jpg"></Image>
             </StackPanel>
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> d532a7a42fd65c06efe44e98f5178386fb58091c
             <StackPanel Grid.Row="1" Background="#FF0A4DFF">
                 <Button Content="Sisene"
                         HorizontalAlignment="Center"
@@ -37,7 +43,10 @@
                         Padding="30,20,30,20"
                         FontSize="30"
                         Margin="0,200,0,0">
+<<<<<<< HEAD
 
+=======
+>>>>>>> d532a7a42fd65c06efe44e98f5178386fb58091c
                     <Button.Background>
                         <AcrylicBrush TintColor="#CCFFFFFF"/>
                     </Button.Background>

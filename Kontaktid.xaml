@@ -1,0 +1,210 @@
+﻿<Page
+    x:Class="Infokiosk.Kontaktid"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Infokiosk"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="32"></RowDefinition>
+            <RowDefinition></RowDefinition>
+
+        </Grid.RowDefinitions>
+        <RelativePanel Grid.Row="0">
+            <StackPanel Name="headBlock" Orientation="Horizontal">
+                <Button Name="backbutton" Click="Backbutton_Click">
+                    <SymbolIcon Symbol="back"></SymbolIcon>
+                </Button>
+                <TextBlock Name="titleblock"
+                       VerticalAlignment="Center" Margin="10,0,0,0"
+                       Text="Kontaktid">
+                </TextBlock>
+
+            </StackPanel>
+        </RelativePanel>
+        <Grid Grid.Row="1">
+            <ScrollViewer>
+                <StackPanel>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30"></RowDefinition>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Row="0" Grid.Column="0" HorizontalTextAlignment="Center">Nimi</TextBlock>
+                        <TextBlock Grid.Row="0" Grid.Column="1" HorizontalTextAlignment="Center">Amet</TextBlock>
+                        <TextBlock Grid.Row="0" Grid.Column="2" HorizontalTextAlignment="Center">Email</TextBlock>
+                        <TextBlock Grid.Row="0" Grid.Column="3" HorizontalTextAlignment="Center">Telefon</TextBlock>
+                            <StackPanel Grid.Row="1">
+                            <ListView>
+                                <ListViewItem Background="LightGray">Maire Tars</ListViewItem>
+                                <ListViewItem Background="DarkGray">Priit Paap</ListViewItem>
+                                <ListViewItem Background="LightGray">Ülvi Paas</ListViewItem>
+                                <ListViewItem Background="LightGray">Maire Tars</ListViewItem>
+                                <ListViewItem Background="DarkGray">Priit Paap</ListViewItem>
+                                <ListViewItem Background="LightGray">Ülvi Paas</ListViewItem>
+                                <ListViewItem Background="LightGray">Maire Tars</ListViewItem>
+                                <ListViewItem Background="DarkGray">Priit Paap</ListViewItem>
+                                <ListViewItem Background="LightGray">Ülvi Paas</ListViewItem>
+                                <ListViewItem Background="LightGray">Maire Tars</ListViewItem>
+                                <ListViewItem Background="DarkGray">Priit Paap</ListViewItem>
+                                <ListViewItem Background="LightGray">Ülvi Paas</ListViewItem>
+                                <ListViewItem Background="LightGray">Maire Tars</ListViewItem>
+                                <ListViewItem Background="DarkGray">Priit Paap</ListViewItem>
+                                <ListViewItem Background="LightGray">Ülvi Paas</ListViewItem>
+                                <ListViewItem Background="LightGray">Maire Tars</ListViewItem>
+                                <ListViewItem Background="DarkGray">Priit Paap</ListViewItem>
+                                <ListViewItem Background="LightGray">Ülvi Paas</ListViewItem>
+                                <ListViewItem Background="LightGray">Maire Tars</ListViewItem>
+                                <ListViewItem Background="DarkGray">Priit Paap</ListViewItem>
+                                <ListViewItem Background="LightGray">Ülvi Paas</ListViewItem>
+                                <ListViewItem Background="LightGray">Maire Tars</ListViewItem>
+                                <ListViewItem Background="DarkGray">Priit Paap</ListViewItem>
+                                <ListViewItem Background="LightGray">Ülvi Paas</ListViewItem>
+                                <ListViewItem Background="LightGray">Maire Tars</ListViewItem>
+                                <ListViewItem Background="DarkGray">Priit Paap</ListViewItem>
+                                <ListViewItem Background="LightGray">Ülvi Paas</ListViewItem>
+                                <ListViewItem Background="LightGray">Maire Tars</ListViewItem>
+                                <ListViewItem Background="DarkGray">Priit Paap</ListViewItem>
+                                <ListViewItem Background="LightGray">Ülvi Paas</ListViewItem>
+                                <ListViewItem Background="LightGray">Maire Tars</ListViewItem>
+                                <ListViewItem Background="DarkGray">Priit Paap</ListViewItem>
+                                <ListViewItem Background="LightGray">Ülvi Paas</ListViewItem>
+                                <ListViewItem Background="LightGray">Maire Tars</ListViewItem>
+                                <ListViewItem Background="DarkGray">Priit Paap</ListViewItem>
+                                <ListViewItem Background="LightGray">Ülvi Paas</ListViewItem>
+                            </ListView>
+                        </StackPanel>
+                        <StackPanel Grid.Row="1" Grid.Column="1">
+                            <ListView>
+                                <ListViewItem Background="LightGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="DarkGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="LightGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="LightGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="DarkGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="LightGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="LightGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="DarkGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="LightGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="LightGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="DarkGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="LightGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="LightGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="DarkGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="LightGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="LightGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="DarkGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="LightGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="LightGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="DarkGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="LightGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="LightGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="DarkGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="LightGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="LightGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="DarkGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="LightGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="LightGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="DarkGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="LightGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="LightGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="DarkGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="LightGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="LightGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="DarkGray">Õpetaja</ListViewItem>
+                                <ListViewItem Background="LightGray">Õpetaja</ListViewItem>
+                            </ListView>
+                        </StackPanel>
+                        <StackPanel Grid.Column="2" Grid.Row="1">
+                            <ListView>
+                                <ListViewItem Background="LightGray" >maire.tars@vikk.ee</ListViewItem>
+                                <ListViewItem Background="DarkGray" >priit.paap@vikk.ee</ListViewItem>
+                                <ListViewItem Background="LightGray">ylvi.paas@vikk.ee</ListViewItem>
+                                <ListViewItem Background="LightGray">maire.tars@vikk.ee</ListViewItem>
+                                <ListViewItem Background="DarkGray">priit.paap@vikk.ee</ListViewItem>
+                                <ListViewItem Background="LightGray">ylvi.paas@vikk.ee</ListViewItem>
+                                <ListViewItem Background="LightGray" >maire.tars@vikk.ee</ListViewItem>
+                                <ListViewItem Background="DarkGray" >priit.paap@vikk.ee</ListViewItem>
+                                <ListViewItem Background="LightGray">ylvi.paas@vikk.ee</ListViewItem>
+                                <ListViewItem Background="LightGray">maire.tars@vikk.ee</ListViewItem>
+                                <ListViewItem Background="DarkGray">priit.paap@vikk.ee</ListViewItem>
+                                <ListViewItem Background="LightGray">ylvi.paas@vikk.ee</ListViewItem>
+                                <ListViewItem Background="LightGray" >maire.tars@vikk.ee</ListViewItem>
+                                <ListViewItem Background="DarkGray" >priit.paap@vikk.ee</ListViewItem>
+                                <ListViewItem Background="LightGray">ylvi.paas@vikk.ee</ListViewItem>
+                                <ListViewItem Background="LightGray">maire.tars@vikk.ee</ListViewItem>
+                                <ListViewItem Background="DarkGray">priit.paap@vikk.ee</ListViewItem>
+                                <ListViewItem Background="LightGray">ylvi.paas@vikk.ee</ListViewItem>
+                                <ListViewItem Background="LightGray" >maire.tars@vikk.ee</ListViewItem>
+                                <ListViewItem Background="DarkGray" >priit.paap@vikk.ee</ListViewItem>
+                                <ListViewItem Background="LightGray">ylvi.paas@vikk.ee</ListViewItem>
+                                <ListViewItem Background="LightGray">maire.tars@vikk.ee</ListViewItem>
+                                <ListViewItem Background="DarkGray">priit.paap@vikk.ee</ListViewItem>
+                                <ListViewItem Background="LightGray">ylvi.paas@vikk.ee</ListViewItem>
+                                <ListViewItem Background="LightGray" >maire.tars@vikk.ee</ListViewItem>
+                                <ListViewItem Background="DarkGray" >priit.paap@vikk.ee</ListViewItem>
+                                <ListViewItem Background="LightGray">ylvi.paas@vikk.ee</ListViewItem>
+                                <ListViewItem Background="LightGray">maire.tars@vikk.ee</ListViewItem>
+                                <ListViewItem Background="DarkGray">priit.paap@vikk.ee</ListViewItem>
+                                <ListViewItem Background="LightGray">ylvi.paas@vikk.ee</ListViewItem>
+                                <ListViewItem Background="LightGray" >maire.tars@vikk.ee</ListViewItem>
+                                <ListViewItem Background="DarkGray" >priit.paap@vikk.ee</ListViewItem>
+                                <ListViewItem Background="LightGray">ylvi.paas@vikk.ee</ListViewItem>
+                                <ListViewItem Background="LightGray">maire.tars@vikk.ee</ListViewItem>
+                                <ListViewItem Background="DarkGray">priit.paap@vikk.ee</ListViewItem>
+                                <ListViewItem Background="LightGray">ylvi.paas@vikk.ee</ListViewItem>
+                            </ListView>
+                        </StackPanel>
+                        <StackPanel Grid.Column="3" Grid.Row="1">
+                            <ListViewItem Background="LightGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="DarkGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="LightGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="LightGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="DarkGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="LightGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="LightGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="DarkGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="LightGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="LightGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="DarkGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="LightGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="LightGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="DarkGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="LightGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="LightGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="DarkGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="LightGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="LightGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="DarkGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="LightGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="LightGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="DarkGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="LightGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="LightGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="DarkGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="LightGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="LightGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="DarkGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="LightGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="LightGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="DarkGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="LightGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="LightGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="DarkGray">+372 55555555</ListViewItem>
+                            <ListViewItem Background="LightGray">+372 55555555</ListViewItem>
+                        </StackPanel>
+                    </Grid>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+</Page>
