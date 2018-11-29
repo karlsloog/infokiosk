@@ -17,17 +17,12 @@
                                   FontSize="30"
                                   Margin="10"
                                   Tag="Item1">Tunniplaan</GridViewItem>
-                    
+
                     <GridViewItem Padding="50"
                                   FontSize="30"
                                   Margin="10"
-<<<<<<< HEAD
                                   Tag="item2" Tapped="GridViewItem_Tapped">Söökla
                     </GridViewItem>
-=======
-                                  Tag="Item2">Söökla</GridViewItem>
->>>>>>> 1a6f19ed46034a259e5357f03f08644740d000a2
-                    
                     <GridViewItem Padding="50"
                                   FontSize="30"
                                   Margin="10"

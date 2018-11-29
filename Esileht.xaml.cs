@@ -17,22 +17,18 @@ using Windows.UI.Xaml.Navigation;
 
 namespace Infokiosk
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
+
     public sealed partial class Esileht : Page
     {
         public Esileht()
         {
             this.InitializeComponent();
         }
-<<<<<<< HEAD
 
         private void GridViewItem_Tapped(object sender, TappedRoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(sookla));
         }
-=======
->>>>>>> 1a6f19ed46034a259e5357f03f08644740d000a2
+
     }
 }
