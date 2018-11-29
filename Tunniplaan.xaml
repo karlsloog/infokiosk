@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="Infokiosk.Tunniplaan"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Infokiosk"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Pivot Title="Tunniplaan">
+            <PivotItem Header="Tunniplaan" Height="Auto">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <ScrollViewer Grid.Column="0">
+                        <ListView>
+                            <ListViewItem Background="#FF959292">IS16</ListViewItem>
+                            <ListViewItem Background="#FF959292">IS17</ListViewItem>
+                            <ListViewItem Background="#FF959292">IS18</ListViewItem>
+                            <ListViewItem Background="#FF959292">Ta16</ListViewItem>
+                            <ListViewItem Background="#FF959292">Ta17</ListViewItem>
+                            <ListViewItem Background="#FF959292">Ta18</ListViewItem>
+                            <ListViewItem Background="#FF959292">AM16</ListViewItem>
+                            
+                        </ListView>
+                    </ScrollViewer>
+                </Grid>
+            </PivotItem>
+                       
+        </Pivot>
+
+    </Grid>
+</Page>

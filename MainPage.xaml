@@ -9,17 +9,8 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-        </Grid.RowDefinitions>
         
-            
         
-
-
-        <StackPanel>
-            <Button>Button1</Button>
-        </StackPanel>
+        
     </Grid>
 </Page>
