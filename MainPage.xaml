@@ -9,17 +9,17 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> 8508cb4ac98321711e3d2ab0478afe4f29c154b3
+
+
+
+
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"></RowDefinition>
-                    <RowDefinition Height="*"></RowDefinition>
-                    <RowDefinition Height="Auto"></RowDefinition>
-                </Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
 
             <StackPanel Grid.Row="0">
                 <Image Source="/Assets/vikkmaja.jpg"></Image>
@@ -27,33 +27,23 @@
             <StackPanel Grid.Row="2">
                 <Image Source="/Assets/vikkmaja.jpg"></Image>
             </StackPanel>
-<<<<<<< HEAD
+
+
+
             <StackPanel Grid.Row="1" Background="#FF0A4DFF">
                 <Button Content="Sisene"
-=======
-
-                <StackPanel Grid.Row="1" Background="#FF0A4DFF"
-                        >
-                    <Button Content="Sisene"
->>>>>>> 8508cb4ac98321711e3d2ab0478afe4f29c154b3
                         HorizontalAlignment="Center"
                         Click="Button_Click"
                         Padding="30,20,30,20"
                         FontSize="30"
                         Margin="0,200,0,0">
-<<<<<<< HEAD
+
                     <Button.Background>
                         <AcrylicBrush TintColor="#CCFFFFFF"/>
                     </Button.Background>
+
                 </Button>
             </StackPanel>
-=======
-                        <Button.Background>
-                            <AcrylicBrush TintColor="#CCFFFFFF"/>
-                        </Button.Background>
-                    </Button>
-                </StackPanel>
->>>>>>> 8508cb4ac98321711e3d2ab0478afe4f29c154b3
         </Grid>
     </Grid>
 </Page>
