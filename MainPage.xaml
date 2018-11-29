@@ -9,14 +9,6 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-<<<<<<< HEAD
-
-        
-        
-        
-
-=======
->>>>>>> daabca13067a4e409a28cada52984c06fab5353b
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"></RowDefinition>
@@ -45,10 +37,6 @@
                     </Button.Background>
                 </Button>
             </StackPanel>
-<<<<<<< HEAD
-    </Grid>
-=======
         </Grid>
->>>>>>> daabca13067a4e409a28cada52984c06fab5353b
     </Grid>
 </Page>

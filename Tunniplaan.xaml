@@ -52,9 +52,24 @@
                 </Grid>
             </PivotItem>
 
-            <PivotItem Header="Ruumid"></PivotItem>
+            <PivotItem Header="Ruumid">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
 
+                    <ScrollViewer Grid.Column="0">
+                        <ListView>
+                        <ListViewItem Background="LightGray">PM154</ListViewItem>
+                        <ListViewItem Background="LightGray">PM155</ListViewItem>
+                        <ListViewItem Background="LightGray">PM156</ListViewItem>
+                        <ListViewItem Background="LightGray">PM157</ListViewItem>
+                        <ListViewItem Background="LightGray">PM158</ListViewItem>
+                        </ListView>
+                    </ScrollViewer>
+                </Grid>
+            </PivotItem>
         </Pivot>
-
     </Grid>
 </Page>
