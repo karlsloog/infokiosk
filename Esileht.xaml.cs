@@ -34,11 +34,16 @@ namespace Infokiosk
 
         private void GridViewItem_Tapped_1(object sender, TappedRoutedEventArgs e)
         {
-<<<<<<< HEAD
 
-=======
+
+
             this.Frame.Navigate(typeof(Bussiajad));
->>>>>>> 7cddcc06b266cf663db188224b2720b0da354deb
+
+        }
+
+        private void GridViewItem_Tapped_2(object sender, TappedRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Tunniplaan));
         }
     }
 }

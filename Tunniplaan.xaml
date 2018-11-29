@@ -9,7 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Pivot Title="Menüü">
+        <Pivot Title="">
             <PivotItem Header="Õpilased" Height="Auto">
                 <Grid>
                     <Grid.ColumnDefinitions>
@@ -19,13 +19,13 @@
 
                     <ScrollViewer Grid.Column="0">
                         <ListView>
-                            <ListViewItem Background="#FF959292">IS16</ListViewItem>
-                            <ListViewItem Background="#FF959292">IS17</ListViewItem>
-                            <ListViewItem Background="#FF959292">IS18</ListViewItem>
-                            <ListViewItem Background="#FF959292">Ta16</ListViewItem>
-                            <ListViewItem Background="#FF959292">Ta17</ListViewItem>
-                            <ListViewItem Background="#FF959292">Ta18</ListViewItem>
-                            <ListViewItem Background="#FF959292">AM16</ListViewItem>
+                            <ListViewItem Background="LightGray">IS16</ListViewItem>
+                            <ListViewItem Background="DarkGray">IS17</ListViewItem>
+                            <ListViewItem Background="LightGray">IS18</ListViewItem>
+                            <ListViewItem Background="DarkGray">Ta16</ListViewItem>
+                            <ListViewItem Background="LightGray">Ta17</ListViewItem>
+                            <ListViewItem Background="DarkGray">Ta18</ListViewItem>
+                            <ListViewItem Background="LightGray">AM16</ListViewItem>
 
                         </ListView>
                     </ScrollViewer>
@@ -41,11 +41,11 @@
 
                     <ScrollViewer Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch">
                         <ListView>
-                            <ListViewItem Background="#FFF5EBEB">Maire Tars</ListViewItem>
-                            <ListViewItem Background="#FFF5EBEB">Priit Paap</ListViewItem>
-                            <ListViewItem Background="#FFF5EBEB">Ott Kukk</ListViewItem>
-                            <ListViewItem Background="#FFF5EBEB">Ylvi Paas</ListViewItem>
-                            <ListViewItem Background="#FFF5EBEB">Tanel Peep</ListViewItem>
+                            <ListViewItem Background="LightGray">Maire Tars</ListViewItem>
+                            <ListViewItem Background="DarkGray">Priit Paap</ListViewItem>
+                            <ListViewItem Background="LightGray">Ott Kukk</ListViewItem>
+                            <ListViewItem Background="DarkGray">Ylvi Paas</ListViewItem>
+                            <ListViewItem Background="LightGray">Tanel Peep</ListViewItem>
                         </ListView>
                     </ScrollViewer>
 
@@ -62,14 +62,26 @@
                     <ScrollViewer Grid.Column="0">
                         <ListView>
                         <ListViewItem Background="LightGray">PM154</ListViewItem>
-                        <ListViewItem Background="LightGray">PM155</ListViewItem>
+                        <ListViewItem Background="DarkGray">PM155</ListViewItem>
                         <ListViewItem Background="LightGray">PM156</ListViewItem>
-                        <ListViewItem Background="LightGray">PM157</ListViewItem>
+                        <ListViewItem Background="DarkGray">PM157</ListViewItem>
                         <ListViewItem Background="LightGray">PM158</ListViewItem>
                         </ListView>
                     </ScrollViewer>
                 </Grid>
             </PivotItem>
         </Pivot>
+        <RelativePanel>
+            <StackPanel Name="headBlock" Orientation="Horizontal">
+                <Button Name="backbutton" Click="backbutton_Click">
+                    <SymbolIcon Symbol="back"></SymbolIcon>
+                </Button>
+                <TextBlock Name="titleblock"
+                       VerticalAlignment="Center" Margin="10,0,0,0"
+                       Text="Tunniplaan">
+                </TextBlock>
+
+            </StackPanel>
+        </RelativePanel>
     </Grid>
 </Page>

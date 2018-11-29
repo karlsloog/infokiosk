@@ -16,7 +16,7 @@
                     <GridViewItem Padding="50"
                                   FontSize="30"
                                   Margin="10"
-                                  Tag="Item1">Tunniplaan</GridViewItem>
+                                  Tag="Item1" Tapped="GridViewItem_Tapped_2">Tunniplaan</GridViewItem>
                     
                     <GridViewItem Padding="50"
                                   FontSize="30"
