@@ -16,7 +16,7 @@
                     <GridViewItem Padding="50"
                                   FontSize="30"
                                   Margin="10"
-                                  Tag="Item1">Tunniplaan</GridViewItem>
+                                  Tag="Item1" Tapped="GridViewItem_Tapped_4">Tunniplaan</GridViewItem>
 
                     <GridViewItem Padding="50"
                                   FontSize="30"
@@ -27,16 +27,15 @@
                                   FontSize="30"
                                   Margin="10"
                                   Tag="Item3" Tapped="GridViewItem_Tapped_1">Bussiajad</GridViewItem>
-                    
+
                     <GridViewItem Padding="50"
                                   FontSize="30"
                                   Margin="10"
-                                  Tag="Item4">Kontaktid</GridViewItem>
-                    
+                                  Tag="Item4"  Tapped="GridViewItem_Tapped_3">Kontaktid</GridViewItem>
                     <GridViewItem Padding="50"
                                   FontSize="30"
                                   Margin="10"
-                                  Tag="Item5">Ruumid</GridViewItem>
+                                  Tag="Item5" Tapped="GridViewItem_Tapped_5" >Ruumid</GridViewItem>
                 </GridView>
             </StackPanel>
         </StackPanel>
