@@ -20,17 +20,11 @@ namespace Infokiosk
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class Esileht : Page
+    public sealed partial class Bussiajad : Page
     {
-        public Esileht()
+        public Bussiajad()
         {
             this.InitializeComponent();
         }
-
-        private void GridViewItem_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(sookla));
-        }
-
     }
 }
